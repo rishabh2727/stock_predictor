@@ -5,11 +5,11 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-st.write("Pranav's stock app")
+st.write("Rishabh's stock app")
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('Stock Forecast App')
+st.title('Stock Predictor App')
 
 stocks = ('GOOG', 'AAPL', 'MSFT', 'GME')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
